@@ -6,7 +6,7 @@ import {
     BeforeInsert,
 } from 'typeorm';
 
-import { BlogEntryEntity } from 'src/blog/blog-entry.entity';
+import { BlogEntryEntity } from 'src/blog/models/blog-entry.entity';
 import { UserRole } from './user.interface';
 
 @Entity()

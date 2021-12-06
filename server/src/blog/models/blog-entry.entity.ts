@@ -5,7 +5,7 @@ import {
     PrimaryGeneratedColumn,
     ManyToOne,
 } from 'typeorm';
-import { UserEntity } from 'src/user/user.entity';
+import { UserEntity } from 'src/user/models/user.entity';
 
 @Entity('blog-entry')
 export class BlogEntryEntity {
